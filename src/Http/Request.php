@@ -47,7 +47,7 @@ class Request
     }
 
     /**
-     * @param array[] $params
+     * @param mixed[] $params
      */
     public function setParams(array $params)
     {

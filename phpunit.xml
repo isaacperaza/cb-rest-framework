@@ -1,6 +1,7 @@
 <phpunit bootstrap="vendor/autoload.php"
          beStrictAboutTestsThatDoNotTestAnything="true"
          beStrictAboutOutputDuringTests="true"
+         backupGlobals="true"
          verbose="true">
     <php>
         <ini name="display_errors" value="1" />
