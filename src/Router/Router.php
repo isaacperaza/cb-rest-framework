@@ -48,7 +48,7 @@ class Router implements RouterInterface
      */
     public function run(ApplicationInterface $application)
     {
-        $uriWithParams = 3;
+        $uriWithParams = 2;
         $methodsUriParams = [static::GET_METHOD, static::DELETE_METHOD, static::PUT_METHOD];
         $this->application = $application;
         $server = $this->server->getServer();
